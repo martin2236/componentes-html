@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.titulo{
+    margin-top: 41px;
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.h4{
+   margin-top: 110px;
+   margin-bottom: 110px;
+   text-align: center;
+}
+
+/*# sourceMappingURL=index.34cb295e.css.map */
