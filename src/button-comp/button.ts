@@ -12,15 +12,15 @@ export function crearButton(){
             
             var label = document.createElement("label")
             label.classList.add("label")
-            label.textContent = "Nombre"
+            label.textContent = `${texto}`
 
             var input = document.createElement("input")
             input.classList.add("input")
-            input.setAttribute("placeholder","Ingrese su nombre")
+            input.setAttribute("placeholder",`Ingrese su ${texto}`)
 
             var button = document.createElement("button")
             button.classList.add("button")
-            button.textContent = texto
+            button.textContent = "Button"
 
             var style = document.createElement("style")
             style.textContent = `
@@ -66,7 +66,7 @@ export function crearButton(){
             contenedor.appendChild(button)
             
             }
-             if (this.hasAttribute("boton")){
+             if (this.hasAttribute("enviar")){
                  style.textContent =`
                  .button{
                       font-family: 'Roboto', sans-serif;
@@ -78,6 +78,7 @@ export function crearButton(){
                      font-weight: 500;
                  }
                  `
+                 button.textContent = "Enviar"
                 shadow.appendChild(style)
                 shadow.appendChild(button)
             }

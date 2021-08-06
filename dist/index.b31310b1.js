@@ -547,13 +547,13 @@ function crearButton() {
             contenedor.classList.add("contenedor");
             var label = document.createElement("label");
             label.classList.add("label");
-            label.textContent = "Nombre";
+            label.textContent = `${texto}`;
             var input = document.createElement("input");
             input.classList.add("input");
-            input.setAttribute("placeholder", "Ingrese su nombre");
+            input.setAttribute("placeholder", `Ingrese su ${texto}`);
             var button = document.createElement("button");
             button.classList.add("button");
-            button.textContent = texto;
+            button.textContent = "Button";
             var style = document.createElement("style");
             style.textContent = `\n            .contenedor{\n                display: flex;\n                flex-direction: column;\n                width: 312px;\n                max-width: 353px;\n            }\n            .label{\n                font-family: 'Roboto', sans-serif;\n                font-size: 18px;\n                font-weight: 400;\n               }\n            .input{\n                font-family: 'Roboto', sans-serif;\n                height: 55px;\n                border: solid 2px black;\n                border-radius: 4px;\n                font-size: 18px;\n                font-weight: 400;\n                margin-bottom:31px;\n            }\n            .button{\n                font-family: 'Roboto', sans-serif;\n                width: 312px;\n                height: 55px;\n                border-radius: 4px;\n                background: #9CBBE9;\n                font-size: 22px;\n                font-weight: 500;\n            }\n               \n\n            `;
             var shadow = this.attachShadow({
@@ -566,8 +566,9 @@ function crearButton() {
                 contenedor.appendChild(input);
                 contenedor.appendChild(button);
             }
-            if (this.hasAttribute("boton")) {
+            if (this.hasAttribute("enviar")) {
                 style.textContent = `\n                 .button{\n                      font-family: 'Roboto', sans-serif;\n                     width: 312px;\n                     height: 55px;\n                     border-radius: 4px;\n                     background-color: #FFF;\n                     font-size: 22px;\n                     font-weight: 500;\n                 }\n                 `;
+                button.textContent = "Enviar";
                 shadow.appendChild(style);
                 shadow.appendChild(button);
             }
