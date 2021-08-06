@@ -6,9 +6,8 @@ export function crearArticle(){
         }
         render(){
             var texto = this.textContent
-            var cosas = this.innerHTML
             
-            var card = document.createElement("div")
+           var card = document.createElement("div")
             card.classList.add("card")
            
             var titulo = document.createElement("h2")

@@ -3,6 +3,11 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+.container{
+    margin: 0 auto;
+    max-width: 600px;
+    height: 100%;
+}
 .titulo{
     margin-top: 41px;
     font-size: 52px;
@@ -15,5 +20,25 @@
    margin-bottom: 110px;
    text-align: center;
 }
+.subtitulo{
+    margin-top: 23px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 72px;
+}
+.card{
+    margin: 0 auto;
+    width: 90%;
+}
+.sub{
+    font-size: 38px;
+    font-weight: 700;
+}
+.p{
+    margin-top: 33px;
+}
+
+
 
 /*# sourceMappingURL=index.34cb295e.css.map */

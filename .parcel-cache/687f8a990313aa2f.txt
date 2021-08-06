@@ -1,4 +1,4 @@
-15858
+15860
 84C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\es-abstract\2020\InLeapYear.js132723830021530000 0
 51C:\Users\ferreteria\scr\dwf-m5\custom-el\.gitignore132726415383942630 0
 100C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\postcss-merge-longhand\dist\lib\mergeValues.js132726412724360000 0
@@ -56,8 +56,8 @@
 76C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\postcss-modules-values132726413900351447 1
 72C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\.bin\ansi-html.cmd132726415068498641 0
 68C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\optionator\lib132726414514560223 1
-45C:\Users\ferreteria\scr\dwf-m5\custom-el\dist132726591829221932 1
-75C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\vm-browserify\example132726413244963106 1
+45C:\Users\ferreteria\scr\dwf-m5\custom-el\dist132727299453579802 1
+75C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\vm-browserify\example132726413332835129 1
 94C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\type-fest\source\fixed-length-array.d.ts132723829725880002 0
 101C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\fast-glob\out\providers\transformers\entry.d.ts132723829470730000 0
 90C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\w3c-hr-time\lib\clock-is-accurate.js132723830061640000 0
@@ -213,7 +213,7 @@
 73C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\@parcel\packager-js132726413420371718 1
 83C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\lodash\fp\intersectionWith.js132723829919349998 0
 74C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\core-js\es\escape.js132723829643250000 0
-55C:\Users\ferreteria\scr\dwf-m5\custom-el\src\index.html132726582133496463 0
+55C:\Users\ferreteria\scr\dwf-m5\custom-el\src\index.html132727299452663946 0
 110C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\postcss-modules\node_modules\postcss\docs\source-maps.md132723829561949998 0
 95C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\core-js\stable\reflect\define-property.js132723829643250000 0
 81C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\mdn-data\css\selectors.json132723830018300000 0
@@ -233,7 +233,7 @@
 72C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\urix\test\index.js132723830091020000 0
 91C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\postcss-merge-rules\node_modules\.bin132726415067405132 1
 74C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\lodash\_getHolder.js132723829919349998 0
-53C:\Users\ferreteria\scr\dwf-m5\custom-el\src\index.ts132726582865445905 0
+53C:\Users\ferreteria\scr\dwf-m5\custom-el\src\index.ts132727298418189644 0
 84C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\highlight.js\scss\zenburn.scss132723829829760000 0
 96C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\core-js\features\object\define-property.js132723829643250000 0
 62C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\path-key132726413884066740 1
@@ -255,7 +255,7 @@
 94C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\core-js\features\typed-array\iterator.js132723829643250000 0
 81C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\ordered-binary\package.json132726412622850000 0
 99C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\caniuse-lite\data\features\payment-request.js132726412402010000 0
-68C:\Users\ferreteria\scr\dwf-m5\custom-el\src\article-comp\article.ts132726591828243609 0
+68C:\Users\ferreteria\scr\dwf-m5\custom-el\src\article-comp\article.ts132727293886900290 0
 101C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\@babel\core\node_modules\json5\lib\unicode.d.ts132723829531099998 0
 90C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\core-js\es\function\virtual\index.js132723829643250000 0
 119C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\postcss-modules-extract-imports\node_modules\postcss\lib\input.js132723829725640000 0
@@ -1198,7 +1198,7 @@
 99C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\regex-not\node_modules\is-extendable\index.js132723830012240000 0
 60C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\for-in132726413673280314 1
 110C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\postcss-modules-scope\node_modules\postcss\lib\result.js132723829725640000 0
-65C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\uri-js\dist132726413235777907 1
+65C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\uri-js\dist132726413331715129 1
 61C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\foreach132726413674373508 1
 67C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\xtend\LICENSE132723830113740002 0
 85C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\caniuse-lite\data\regions\AX.js132726412402010000 0
@@ -3756,6 +3756,7 @@
 92C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\uncss\node_modules\color-name\index.js132723829679380000 0
 96C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\@parcel\transformer-babel\lib\constants.js132726412367860000 0
 91C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\uncss\node_modules\color-name\LICENSE132723829679380000 0
+71C:\Users\ferreteria\scr\dwf-m5\custom-el\dist\custom-el.94e89cdd.js.map132727297159868731 0
 83C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\core-js\features\url\index.js132723829643250000 0
 80C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\css-tree\lib\syntax\config132726414959149308 1
 99C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\uncss\node_modules\color-convert\CHANGELOG.md132723829564630002 0
@@ -4134,7 +4135,7 @@
 65C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\timsort\src132726414648904135 1
 79C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\timers-browserify\main.js132723830088060000 0
 80C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\eventemitter3\package.json132723829689000000 0
-56C:\Users\ferreteria\scr\dwf-m5\custom-el\dist\index.html132726591370905017 0
+56C:\Users\ferreteria\scr\dwf-m5\custom-el\dist\index.html132727299453559874 0
 77C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\cli-cursor\package.json132723829535150002 0
 80C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\serve-handler\src\index.js132723829475340000 0
 81C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\timers-browserify\README.md132723830088060000 0
@@ -6212,7 +6213,7 @@
 62C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\asn1\lib132726414134972316 1
 126C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\declaration.js132723829725640000 0
 120C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\input.js132723829725640000 0
-67C:\Users\ferreteria\scr\dwf-m5\custom-el\dist\index.b31310b1.js.map132726591829201971 0
+67C:\Users\ferreteria\scr\dwf-m5\custom-el\dist\index.b31310b1.js.map132727298419563458 0
 119C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\list.js132723829725640000 0
 109C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\postcss-modules\node_modules\color-convert\package.json132723829564630002 0
 128C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\postcss-modules-local-by-default\node_modules\postcss\lib\map-generator.js132723829725640000 0
@@ -6867,7 +6868,7 @@
 82C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\es-abstract\5\ToPrimitive.js132723830021530000 0
 73C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\pbkdf2\lib\async.js132723830105250000 0
 91C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\es-abstract\2020\SetFunctionLength.js132723830021530000 0
-64C:\Users\ferreteria\scr\dwf-m5\custom-el\dist\index.34cb295e.css132726591370905017 0
+64C:\Users\ferreteria\scr\dwf-m5\custom-el\dist\index.34cb295e.css132727297051598776 0
 80C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\node-addon-api\common.gypi132723829532630002 0
 83C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\@babel\highlight\package.json132723830006029998 0
 94C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\@parcel\babel-ast-utils\src\generator.js132726412507790000 0
@@ -8957,7 +8958,7 @@
 72C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\lmdb-store\LICENSE132726412482320002 0
 80C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\@parcel\core\src\worker.js132726412318540000 0
 82C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\core-js\stable\math\atanh.js132723829643250000 0
-74C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\lmdb-store\prebuilds132726413184372333 1
+74C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\lmdb-store\prebuilds132726413319556506 1
 79C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\collection-visit\index.js132723830113829998 0
 99C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\jsdom\lib\jsdom\living\generated\SVGNumber.js132723829963490000 0
 104C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\generic-names\.idea\codeStyles\codeStyleConfig.xml132723829780090000 0
@@ -14586,7 +14587,7 @@
 76C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\astral-regex\readme.md132723829701080000 0
 77C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\assign-symbols\index.js132723830011919998 0
 76C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\assign-symbols\LICENSE132723830011919998 0
-63C:\Users\ferreteria\scr\dwf-m5\custom-el\dist\index.b31310b1.js132726591829172077 0
+63C:\Users\ferreteria\scr\dwf-m5\custom-el\dist\index.b31310b1.js132727298419432062 0
 78C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\assign-symbols\README.md132723830011919998 0
 76C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\assert-plus\CHANGES.md132723830097850000 0
 78C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\assert-plus\package.json132723830097850000 0
@@ -14916,7 +14917,7 @@
 86C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\@nodelib\fs.scandir\out\adapters132726414683944376 1
 80C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\@parcel\utils\package.json132726412321359998 0
 71C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\@parcel\utils\src132726414134143729 1
-78C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\@parcel\utils\test\input132726413265379484 1
+78C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\@parcel\utils\test\input132726413337216792 1
 91C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\@parcel\utils\test\objectHash.test.js132726412321359998 0
 93C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\@parcel\utils\test\prettifyTime.test.js132726412321359998 0
 89C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\@parcel\utils\test\throttle.test.js132726412321359998 0
@@ -15855,5 +15856,6 @@
 67C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\.bin\svgo.cmd132726415070060751 0
 68C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\.bin\uncss.cmd132726415070216974 0
 68C:\Users\ferreteria\scr\dwf-m5\custom-el\node_modules\.bin\which.cmd132726415070216974 0
-68C:\Users\ferreteria\scr\dwf-m5\custom-el\dist\index.34cb295e.css.map132726591370905017 0
+67C:\Users\ferreteria\scr\dwf-m5\custom-el\dist\custom-el.94e89cdd.js132727297159769008 0
+68C:\Users\ferreteria\scr\dwf-m5\custom-el\dist\index.34cb295e.css.map132727297051768318 0
 63C:\Users\ferreteria\scr\dwf-m5\custom-el\dist\index.ec44d2af.js132726501028518484 0

@@ -456,14 +456,17 @@ function hmrAcceptRun(bundle, id) {
 
 },{}],"4aleK":[function(require,module,exports) {
 var _header = require("./header/header");
-var _article = require("./article-comp/article");
+var _button = require("./button-comp/button");
+var _footer = require("./footer-comp/footer");
 function main() {
+    _footer.crearFooter();
     _header.crearHeader();
-    _article.crearArticle();
+    //crearArticle()
+    _button.crearButton();
 }
 main();
 
-},{"./header/header":"cjUtq","./article-comp/article":"aOnJz"}],"cjUtq":[function(require,module,exports) {
+},{"./header/header":"cjUtq","./button-comp/button":"ksSDB","./footer-comp/footer":"5bfEl"}],"cjUtq":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "crearHeader", ()=>crearHeader
@@ -526,42 +529,82 @@ exports.export = function(dest, destName, get) {
     });
 };
 
-},{}],"aOnJz":[function(require,module,exports) {
+},{}],"ksSDB":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "crearArticle", ()=>crearArticle
+parcelHelpers.export(exports, "crearButton", ()=>crearButton
 );
-function crearArticle() {
-    class ArticleM extends HTMLElement {
+function crearButton() {
+    class Buttons extends HTMLElement {
         constructor(){
             super();
             this.render();
         }
         render() {
             var texto = this.textContent;
-            var cosas = this.innerHTML;
-            var card = document.createElement("div");
-            card.classList.add("card");
-            var titulo = document.createElement("h2");
-            titulo.classList.add("sub");
-            titulo.textContent = texto;
-            var parrafo1 = document.createElement("p");
-            parrafo1.classList.add("p");
-            var parrafo2 = document.createElement("p");
-            parrafo2.classList.add("p");
-            var style = document.createElement('style');
-            style.textContent = `\n            .subtitulo{\n                margin-top: 23px;\n                text-align: center;\n                font-weight: 400;\n                font-size: 18px;\n                margin-bottom: 72px;\n            }\n            .card{\n                margin: 0 auto;\n                width: 90%;\n            }\n            .sub{\n                font-size: 38px;\n                font-weight: 700;\n            }\n            .p{\n                margin-top: 33px;\n            }  \n            `;
+            console.log(texto);
+            var contenedor = document.createElement("form");
+            contenedor.classList.add("contenedor");
+            var label = document.createElement("label");
+            label.classList.add("label");
+            label.textContent = "Nombre";
+            var input = document.createElement("input");
+            input.classList.add("input");
+            input.setAttribute("placeholder", "Ingrese su nombre");
+            var button = document.createElement("button");
+            button.classList.add("button");
+            button.textContent = texto;
+            var style = document.createElement("style");
+            style.textContent = `\n            .contenedor{\n                display: flex;\n                flex-direction: column;\n                width: 312px;\n                max-width: 353px;\n            }\n            .label{\n                font-family: 'Roboto', sans-serif;\n                font-size: 18px;\n                font-weight: 400;\n               }\n            .input{\n                font-family: 'Roboto', sans-serif;\n                height: 55px;\n                border: solid 2px black;\n                border-radius: 4px;\n                font-size: 18px;\n                font-weight: 400;\n                margin-bottom:31px;\n            }\n            .button{\n                font-family: 'Roboto', sans-serif;\n                width: 312px;\n                height: 55px;\n                border-radius: 4px;\n                background: #9CBBE9;\n                font-size: 22px;\n                font-weight: 500;\n            }\n               \n\n            `;
             var shadow = this.attachShadow({
                 mode: 'open'
             });
-            shadow.appendChild(card);
-            card.appendChild(titulo);
-            card.appendChild(parrafo1);
-            card.appendChild(parrafo2);
-            shadow.appendChild(style);
+            if (this.hasAttribute("formulario")) {
+                shadow.appendChild(contenedor);
+                shadow.appendChild(style);
+                contenedor.appendChild(label);
+                contenedor.appendChild(input);
+                contenedor.appendChild(button);
+            }
+            if (this.hasAttribute("boton")) {
+                style.textContent = `\n                 .button{\n                      font-family: 'Roboto', sans-serif;\n                     width: 312px;\n                     height: 55px;\n                     border-radius: 4px;\n                     background-color: #FFF;\n                     font-size: 22px;\n                     font-weight: 500;\n                 }\n                 `;
+                shadow.appendChild(style);
+                shadow.appendChild(button);
+            }
         }
     }
-    customElements.define("article-el", ArticleM);
+    customElements.define("button-el", Buttons);
+}
+
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}],"5bfEl":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+parcelHelpers.export(exports, "crearFooter", ()=>crearFooter
+);
+function crearFooter() {
+    class Footer extends HTMLElement {
+        constructor(){
+            super();
+            this.render();
+        }
+        render() {
+            var texto = this.textContent;
+            var titulo = document.createElement("p");
+            titulo.setAttribute("class", "titulo");
+            titulo.textContent = texto;
+            const footer = document.createElement("div");
+            footer.classList.add("footer");
+            var style = document.createElement("style");
+            style.textContent = `\n            .footer{\n                margin-top:60px;\n                height: 233px;\n                background: #FFA0EA;\n                display: flex;\n                justify-content: center;\n                align-items: center;\n            }\n            `;
+            var shadow = this.attachShadow({
+                mode: 'open'
+            });
+            shadow.appendChild(footer);
+            shadow.appendChild(style);
+            footer.appendChild(titulo);
+        }
+    }
+    customElements.define("footer-el", Footer);
 }
 
 },{"@parcel/transformer-js/src/esmodule-helpers.js":"JacNc"}]},["8uBhv","4aleK"], "4aleK", "parcelRequirecdec")
